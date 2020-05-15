@@ -29,6 +29,7 @@ class ViewController: UIViewController {
     }
     
     func playSound() {
+        player?.stop()
         let url = Bundle.main.url(forResource: "bumer_dimon", withExtension: "mp3")!
         do {
             player = try AVAudioPlayer(contentsOf: url)
