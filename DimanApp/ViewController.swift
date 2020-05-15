@@ -30,7 +30,7 @@ class ViewController: UIViewController {
     
     func playSound() {
         player?.stop()
-        let url = Bundle.main.url(forResource: "bumer_dimon", withExtension: "mp3")!
+        let url = Bundle.main.url(forResource: "dimon_song", withExtension: "mp3")!
         do {
             player = try AVAudioPlayer(contentsOf: url)
             guard let player = player else { return }
@@ -84,6 +84,7 @@ extension ViewController {
         imageView.contentMode = .scaleAspectFill
         imageView.layer.cornerRadius = 8
         imageView.layer.masksToBounds = true
+        imageView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(playButtonTapped)))
         
         playButton.setTitle("Play", for: .normal)
         playButton.addTarget(self, action: #selector(playButtonTapped), for: .touchUpInside)

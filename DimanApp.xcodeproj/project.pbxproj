@@ -14,6 +14,7 @@
 		7B0D355D246E6C1A00E790DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B0D355B246E6C1A00E790DD /* LaunchScreen.storyboard */; };
 		7B0D3568246E6C1A00E790DD /* DimanAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0D3567246E6C1A00E790DD /* DimanAppTests.swift */; };
 		7B0D3573246E713700E790DD /* bumer_dimon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7B0D3572246E713700E790DD /* bumer_dimon.mp3 */; };
+		7B0D3577246E77B300E790DD /* dimon_song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7B0D3576246E77B300E790DD /* dimon_song.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		7B0D3567246E6C1A00E790DD /* DimanAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DimanAppTests.swift; sourceTree = "<group>"; };
 		7B0D3569246E6C1A00E790DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B0D3572246E713700E790DD /* bumer_dimon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bumer_dimon.mp3; sourceTree = "<group>"; };
+		7B0D3576246E77B300E790DD /* dimon_song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dimon_song.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		7B0D354F246E6C1600E790DD /* DimanApp */ = {
 			isa = PBXGroup;
 			children = (
+				7B0D3576246E77B300E790DD /* dimon_song.mp3 */,
 				7B0D3572246E713700E790DD /* bumer_dimon.mp3 */,
 				7B0D3550246E6C1600E790DD /* AppDelegate.swift */,
 				7B0D3554246E6C1600E790DD /* ViewController.swift */,
@@ -182,6 +185,7 @@
 			files = (
 				7B0D355D246E6C1A00E790DD /* LaunchScreen.storyboard in Resources */,
 				7B0D355A246E6C1A00E790DD /* Assets.xcassets in Resources */,
+				7B0D3577246E77B300E790DD /* dimon_song.mp3 in Resources */,
 				7B0D3573246E713700E790DD /* bumer_dimon.mp3 in Resources */,
 				7B0D3558246E6C1600E790DD /* Main.storyboard in Resources */,
 			);
