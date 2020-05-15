@@ -30,7 +30,7 @@ class ViewController: UIViewController {
     
     func playSound() {
         player?.stop()
-        let url = Bundle.main.url(forResource: "dimon_song", withExtension: "mp3")!
+        let url = Bundle.main.url(forResource: "dimon", withExtension: "mp3")!
         do {
             player = try AVAudioPlayer(contentsOf: url)
             guard let player = player else { return }
